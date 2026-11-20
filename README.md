@@ -55,7 +55,7 @@ El sistema combina:
 ---
 
 ### Enlace Oficial:
-**[HAZ CLIC AQUÍ PARA ABRIR EL GEMELO DIGITAL EN VIVO](https://yeimerxx.github.io/NOMBRE-DE-TU-REPOSITORIO/)**
+**[HAZ CLIC AQUÍ PARA ABRIR EL GEMELO DIGITAL EN VIVO](https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/)**
 
 ---
 
