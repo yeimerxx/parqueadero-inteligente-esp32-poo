@@ -54,23 +54,8 @@ El sistema combina:
 
 ---
 
-## Cómo Ver el Gemelo Digital en Línea (GitHub Pages)
-
-Para que el proyecto se pueda abrir y evaluar como una página web pública desde cualquier celular, tablet o computadora sin instalar nada:
-
-### 1. Activar GitHub Pages en el repositorio:
-1. En GitHub, ve a la pestaña **Settings** (Configuración) de este repositorio.
-2. En el menú lateral izquierdo, haz clic en **Pages**.
-3. En **Build and deployment > Source**, selecciona **Deploy from a branch**.
-4. En **Branch**, selecciona `main` y en la carpeta elige `/ (root)`.
-5. Haz clic en **Save** (Guardar).
-6. En 1 minuto, GitHub generará tu enlace oficial:
-   ```text
-   https://<TU-USUARIO>.github.io/<NOMBRE-REPOSITORIO>/
-   ```
-
-> [!TIP]
-> **Modo Demostración Web Automático:** Al ingresar mediante el enlace de GitHub Pages, el Gemelo Digital detecta automáticamente el entorno web y activa el **Modo Manual / Demo**, permitiendo hacer clic en cualquier bahía (P1–P5), abrir la barrera, ingresar o retirar vehículos y observar la física del gemelo digital en tiempo real.
+### Enlace Oficial:
+**[HAZ CLIC AQUÍ PARA ABRIR EL GEMELO DIGITAL EN VIVO](https://yeimerxx.github.io/NOMBRE-DE-TU-REPOSITORIO/)**
 
 ---
 
