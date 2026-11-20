@@ -1,5 +1,10 @@
-# 🚗 Corporación Universitaria Americana
+# Corporación Universitaria Americana
 ## Sistema de Parqueadero Inteligente ESP32 · Gemelo Digital 2.5D
+## Yeimer Ortiz
+Sebastian De Luque
+Camilo Martinez
+Sebastian Martinez 
+Martin castro
 
 <div align="center">
 
@@ -16,14 +21,14 @@
 
 <br />
 
-### 🌐 [VER GEMELO DIGITAL EN VIVO (GITHUB PAGES)](#-c%C3%B3mo-ver-el-gemelo-digital-en-l%C3%ADnea-github-pages)
+### [VER GEMELO DIGITAL EN VIVO (GITHUB PAGES)](#-c%C3%B3mo-ver-el-gemelo-digital-en-l%C3%ADnea-github-pages)
 *Haz clic para abrir el simulador interactivo en tiempo real directamente desde tu navegador.*
 
 </div>
 
 ---
 
-## 📌 Tabla de Contenidos
+## Tabla de Contenidos
 1. [Descripción General](#-descripción-general)
 2. [Cómo Ver el Gemelo Digital en Línea (GitHub Pages)](#-cómo-ver-el-gemelo-digital-en-línea-github-pages)
 3. [Arquitectura del Sistema](#-arquitectura-del-sistema)
@@ -37,7 +42,7 @@
 
 ---
 
-## 📖 Descripción General
+## Descripción General
 
 Este proyecto consiste en un **Sistema Integral de Estacionamiento Inteligente Automatizado (Smart Parking IoT)** desarrollado como prototipo funcional para la carrera de Ingeniería Mecatrónica en la **Corporación Universitaria Americana**.
 
@@ -49,7 +54,7 @@ El sistema combina:
 
 ---
 
-## 🚀 Cómo Ver el Gemelo Digital en Línea (GitHub Pages)
+## Cómo Ver el Gemelo Digital en Línea (GitHub Pages)
 
 Para que el proyecto se pueda abrir y evaluar como una página web pública desde cualquier celular, tablet o computadora sin instalar nada:
 
@@ -69,7 +74,7 @@ Para que el proyecto se pueda abrir y evaluar como una página web pública desd
 
 ---
 
-## 🏗 Arquitectura del Sistema
+## Arquitectura del Sistema
 
 El flujo bidireccional entre la maqueta física, el servidor MQTT y la interfaz web opera de acuerdo con el siguiente esquema:
 
@@ -122,7 +127,7 @@ stateDiagram-v2
 
 ---
 
-## 🔌 Hardware y Conexiones (Pinout)
+## Hardware y Conexiones (Pinout)
 
 | Componente | Pin del Componente | Pin ESP32 (GPIO) | Función / Rango |
 |---|---|---|---|
@@ -140,7 +145,7 @@ stateDiagram-v2
 
 ---
 
-## 🛠 Bitácora de Desafíos, Errores y Soluciones
+## Bitácora de Desafíos, Errores y Soluciones
 
 Durante el ciclo de desarrollo de este proyecto se superaron importantes retos mecatrónicos:
 
@@ -173,7 +178,7 @@ Durante el ciclo de desarrollo de este proyecto se superaron importantes retos m
 
 ---
 
-## 📸 Galería de Evidencias
+## Galería de Evidencias
 
 A continuación se presentan las capturas reales del sistema en funcionamiento:
 
@@ -211,7 +216,7 @@ A continuación se presentan las capturas reales del sistema en funcionamiento:
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 parqueadero-inteligente/
@@ -251,7 +256,7 @@ parqueadero-inteligente/
 
 ---
 
-## 🚀 Guía de Instalación y Ejecución
+## Guía de Instalación y Ejecución
 
 ### Opción 1: Probar sin Hardware Físico (Simulador Python + Web)
 
@@ -314,7 +319,7 @@ Start-Service mosquitto
 
 ---
 
-## 👥 Créditos
+## Créditos
 - **Institución:** Corporación Universitaria Americana
 - **Programa:** Ingeniería Mecatrónica
 - **Materia / Proyecto:** Proyecto de Aula / Sistemas Embebidos e IoT
