@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parqueadero Inteligente · Gemelo Digital 2.5D</title>
+  <link rel="stylesheet" href="web/assets/css/dashboard.css" />
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  <script defer src="web/assets/js/config.js"></script>
+  <script defer src="web/assets/js/iso-renderer.js"></script>
+  <script defer src="web/assets/js/animation.js"></script>
+  <script defer src="web/assets/js/mqtt-client.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-logo-wrap">
+        <img src="web/assets/img/logo.png" alt="Corporación Universitaria Americana" class="brand-logo" />
+      </div>
+      <div>
+        <h1>Corporación Universitaria Americana · Parqueadero Inteligente ESP32</h1>
+        <p>Gemelo Digital 2.5D · Telemetría MQTT en tiempo real (<code>ws://127.0.0.1:9001</code>)</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <button id="mode-toggle-btn" class="mode-toggle" type="button" aria-pressed="false">
+        <span class="mode-dot"></span>
+        <span id="mode-toggle-text">Modo: Automático (MQTT)</span>
+      </button>
+      <div id="conn-pill" class="conn-pill">
+        <span class="dot"></span>
+        <span id="conn-text">Desconectado</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Escena 2.5D Isométrica -->
+    <section class="stage-card">
+      <div class="stage-hud-top">
+        <span>VISTA ISOMÉTRICA 2.5D · 5 BAHÍAS (P1–P5)</span>
+        <span id="hud-sync">Esperando telemetría...</span>
+      </div>
+
+      <div id="full-alert" class="full-alert">
+        <span>⚠</span>
+        <span>PARQUEADERO LLENO</span>
+      </div>
+
+      <div id="solar-hud" class="solar-hud">
+        <span class="solar-sun">☀</span>
+        <span id="solar-hud-text">Protección Solar (Cartón)</span>
+      </div>
+
+      <svg id="scene" class="stage-svg" viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="slabTop" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1e293b" />
+            <stop offset="100%" stop-color="#131c2e" />
+          </linearGradient>
+          <linearGradient id="roadGrad" x1="0" y1="0" x2="1" y2="0.5">
+            <stop offset="0%" stop-color="#0f172a" />
+            <stop offset="100%" stop-color="#182338" />
+          </linearGradient>
+          <filter id="glowGreen" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+          </filter>
+          <filter id="glowRed" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+          </filter>
+        </defs>
+
+        <g id="layer-floor"></g>
+        <g id="layer-bays"></g>
+        <g id="layer-sensors"></g>
+        <g id="layer-booth"></g>
+        <g id="layer-cars"></g>
+        <g id="layer-barrier"></g>
+        <g id="layer-hud"></g>
+      </svg>
+
+      <div class="legend">
+        <span><i class="swatch" style="background:#22c55e"></i> Bahía Libre</span>
+        <span><i class="swatch" style="background:#ef4444"></i> Bahía Ocupada</span>
+        <span><i class="swatch" style="background:#a3e635"></i> Trabajador (Protección Solar)</span>
+        <span><i class="swatch" style="background:#38bdf8"></i> S1 Afuera (GPIO 13/34)</span>
+        <span><i class="swatch" style="background:#a855f7"></i> S2 Dentro (GPIO 32/33)</span>
+        <span><i class="swatch" style="background:#facc15"></i> Servo (GPIO 27)</span>
+      </div>
+    </section>
+
+    <!-- Panel Lateral de Telemetría -->
+    <aside class="sidebar">
+      <div class="panel-box">
+        <h2 class="panel-title">Telemetría en Vivo</h2>
+        <div class="kpi-grid">
+          <div class="kpi">
+            <div class="kpi-label">Plazas Libres</div>
+            <div id="kpi-libres" class="kpi-value ok">5 / 5</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Vehículos Dentro</div>
+            <div id="kpi-ocupados" class="kpi-value info">0</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Estado</div>
+            <div id="kpi-estado" class="kpi-value ok" style="font-size:1.05rem;">DISPONIBLE</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Barrera (Servo 27)</div>
+            <div id="kpi-barrera" class="kpi-value warn" style="font-size:1.05rem;">CERRADA</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">S1 Afuera (13/34)</div>
+            <div id="kpi-sensor-afuera" class="kpi-value info" style="font-size:1.05rem;">N/A</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">S2 Dentro (32/33)</div>
+            <div id="kpi-sensor-dentro" class="kpi-value info" style="font-size:1.05rem;">N/A</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="manual-panel" class="panel-box manual-panel">
+        <h2 class="panel-title">Control Manual</h2>
+        <p class="manual-hint">Usa los controles o haz clic directamente en cualquier bahía (P1–P5):</p>
+        <div class="manual-grid">
+          <button id="btn-manual-entry" class="manual-btn m-entry" type="button">+ Ingresar Vehículo</button>
+          <button id="btn-manual-exit" class="manual-btn m-exit" type="button">- Retirar Vehículo</button>
+          <button id="btn-manual-barrier" class="manual-btn m-barrier" type="button">Abrir / Cerrar Barrera</button>
+          <button id="btn-manual-reset" class="manual-btn m-reset" type="button">Reiniciar (5/5)</button>
+        </div>
+      </div>
+
+      <div class="panel-box" style="flex:1;">
+        <h2 class="panel-title">Últimos 5 Eventos</h2>
+        <ul id="history-list" class="history-list">
+          <li class="history-item" style="color:var(--muted); justify-content:center;">
+            Sin eventos registrados aún
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>
