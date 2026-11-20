@@ -1,5 +1,5 @@
 # Corporación Universitaria Americana
-## Sistema de Parqueadero Inteligente ESP32 · Gemelo Digital 2.5D
+## Sistema de Parqueadero Inteligente ESP32
 Yeimer Ortiz,
 Sebastian De Luque,
 Camilo Martinez,
@@ -321,6 +321,6 @@ Start-Service mosquitto
 
 ## Créditos
 - **Institución:** Corporación Universitaria Americana
-- **Programa:** Ingeniería Mecatrónica
-- **Materia / Proyecto:** Proyecto de Aula / Sistemas Embebidos e IoT
+- **Programa:** Ingenieria en sistemas
+- **Materia / Proyecto:** Mecatronica / proyecto final
 - **Año:** 2026
