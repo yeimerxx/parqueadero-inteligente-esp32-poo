@@ -1,6 +1,6 @@
 # Corporación Universitaria Americana
 ## Sistema de Parqueadero Inteligente ESP32 · Gemelo Digital 2.5D
-# Yeimer Ortiz,
+Yeimer Ortiz,
 Sebastian De Luque,
 Camilo Martinez,
 Sebastian Martinez,
