@@ -189,7 +189,7 @@ A continuación se presentan las capturas reales del sistema en funcionamiento:
 
 ---
 
-## 📡 Tópicos MQTT y Telemetría
+## Tópicos MQTT y Telemetría
 
 | Tópico | Dirección | Payload / Ejemplo | Descripción |
 |---|---|---|---|
