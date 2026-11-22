@@ -24,24 +24,11 @@ Martin castro.
 
 ## Tabla de Contenidos
 1. [Descripción General](#descripción-general)
-2. [Cómo Ver el Gemelo Digital en Línea (GitHub Pages)](#como-ver-el-gemelo-digital-en-línea-github-pages)
-3. [Arquitectura del Sistema](#arquitectura-del-sistema)
-4. [Hardware y Conexiones (Pinout)](#hardware-y-conexiones-pinout)
-5. [Bitácora de Desafíos, Errores y Soluciones](#bitácora-de-desafíos-errores-y-soluciones)
-6. [Galería de Evidencias](#galería-de-evidencias)
-7. [Tópicos MQTT y Telemetría](#tópicos-mqtt-y-telemetría)
-8. [Estructura del Proyecto](#estructura-del-proyecto)
-9. [Guía de Instalación y Ejecución](#guía-de-instalación-y-ejecución)
-10. [Créditos](#créditos)
-
----
-
-## Tabla de Contenidos
-1. [Descripción General](#descripción-general)
 2. [Arquitectura del Sistema](#arquitectura-del-sistema)
 3. [Hardware y Conexiones (Pinout)](#hardware-y-conexiones-pinout)
 4. [Bitácora de Desafíos, Errores y Soluciones](#bitácora-de-desafíos-errores-y-soluciones)
 5. [Galería de Evidencias](#galería-de-evidencias)
+   - [Funcionamiento Físico y Evidencias (docs/evidencias/README.md)](docs/evidencias/README.md)
 6. [Tópicos MQTT y Telemetría](#tópicos-mqtt-y-telemetría)
 7. [Estructura del Proyecto](#estructura-del-proyecto)
 8. [Guía de Instalación y Ejecución](#guía-de-instalación-y-ejecución)
@@ -49,6 +36,8 @@ Martin castro.
    - [Estado actual](#estado-actual)
    - [Mejoras futuras](#mejoras-futuras)
 10. [Créditos](#créditos)
+
+---
 
 ## Descripción General
 
