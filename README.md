@@ -19,12 +19,6 @@ Martin castro.
 [![Python 3](https://img.shields.io/badge/Simulator-Python%203.x-3776AB.svg?logo=python)](https://python.org/)
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-22c55e.svg?logo=github)](https://pages.github.com/)
 
-<br />
-
-### [VER GEMELO DIGITAL EN VIVO (GITHUB PAGES)](#-c%C3%B3mo-ver-el-gemelo-digital-en-l%C3%ADnea-github-pages)
-*Haz clic para abrir el simulador interactivo en tiempo real directamente desde tu navegador.*
-
-</div>
 
 ---
 
