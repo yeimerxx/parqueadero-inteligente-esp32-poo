@@ -186,6 +186,38 @@ A continuación se presentan las capturas reales del sistema en funcionamiento:
 
 ---
 
+
+
+###  Evidencias del Prototipo Físico y Pruebas en Laboratorio
+
+A continuación se presentan las evidencias fotográficas de la maqueta física desarrollada, mostrando el montaje electromecánico, la caseta de protección solar de cartón, los sensores ultrasónicos y la barrera servo-controlada:
+
+| Evidencia 6: Vista Superior de la Maqueta | Evidencia 7: Barrera Elevada y Sensor Ultrasónico |
+|:---:|:---:|
+| ![Maqueta Física Superior](docs/evidencias/06_maqueta_fisica_vista_superior.jpg) | ![Barrera Elevada Servo](docs/evidencias/07_barrera_elevada_servo_sensor.jpg) |
+| *Vista aérea de la maqueta: cajones P1 a P5 ocupados por objetos de prueba, caseta de cartón protectora y barrera cerrada.* | *Detalle frontal del servomotor SG90 elevando la barrera a 90° con sensor ultrasónico HC-SR04 de entrada.* |
+
+<div align="center">
+
+### Evidencia 8: Vista en Perspectiva de la Maqueta y Electrónica de Control
+
+![Maqueta Física Perspectiva](docs/evidencias/08_maqueta_fisica_perspectiva_abierta.jpg)
+
+*Vista en perspectiva mostrando la integración del cableado en protoboard, sensores ultrasónicos frontal y posterior, y la barrera en posición de apertura.*
+
+</div>
+
+#### Videos Demostrativos de Funcionamiento Físico
+
+En la carpeta [`docs/evidencias/`](docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
+
+-  [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
+-  [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
+-  [**Video 3: Prueba de Ingreso Vehicular en Tiempo Real**](docs/evidencias/video_demostracion_03.mp4): Tránsito de objeto de prueba simulando el ingreso de un vehículo y cierre temporizado.
+-  [**Video 4: Validación Integral del Sistema Físico**](docs/evidencias/video_demostracion_04.mp4): Demostración completa de detección, lógica anti-bloqueo y respuesta electromecánica.
+
+---
+
 ## Tópicos MQTT y Telemetría
 
 | Tópico | Dirección | Payload / Ejemplo | Descripción |
