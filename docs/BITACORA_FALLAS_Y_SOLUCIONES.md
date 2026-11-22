@@ -112,7 +112,8 @@ Para constancia de la validación experimental y de laboratorio, se anexan en la
 - **`08_maqueta_fisica_perspectiva_abierta.jpg`:** Vista en perspectiva del prototipo integral con el microcontrolador y el cableado de alimentación protegido.
 
 #### 2. Evidencias en Video de Ensayos Dinámicos
-- **`video_demostracion_01.mp4`:** Prueba de accionamiento angular del servomotor y respuesta del tren de pulsos PWM.
-- **`video_demostracion_02.mp4`:** Validación de la secuencia lógica de detección en los sensores ultrasónicos de entrada y salida.
-- **`video_demostracion_03.mp4`:** Prueba de paso vehicular con objeto de ensayo y cierre temporizado automático.
-- **`video_demostracion_04.mp4`:** Prueba integral del sistema mecatrónico en tiempo real.
+- **`video1.mp4`:** Grabación de funcionamiento y pruebas iniciales del sistema.
+- **`video2.mp4`:** Prueba de detección ultrasónica y respuesta de la barrera.
+- **`video3.mp4`:** Prueba de ingreso vehicular y control electromecánico.
+- **`video4.mp4`:** Validación del flujo de operación del prototipo físico.
+- **`video5.mp4`:** Prueba adicional de funcionamiento integral en laboratorio.

@@ -210,10 +210,11 @@ A continuación se presentan las evidencias fotográficas de la maqueta física 
 
 En la carpeta [`docs/evidencias/`](docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
 
--  [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
--  [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
--  [**Video 3: Prueba de Ingreso Vehicular en Tiempo Real**](docs/evidencias/video_demostracion_03.mp4): Tránsito de objeto de prueba simulando el ingreso de un vehículo y cierre temporizado.
--  [**Video 4: Validación Integral del Sistema Físico**](docs/evidencias/video_demostracion_04.mp4): Demostración completa de detección, lógica anti-bloqueo y respuesta electromecánica.
+-  [**Video 1: Demostración del Sistema (Parte 1)**](docs/evidencias/video1.mp4): Grabación de funcionamiento y pruebas iniciales del sistema.
+-  [**Video 2: Demostración del Sistema (Parte 2)**](docs/evidencias/video2.mp4): Prueba de detección ultrasónica y respuesta de la barrera.
+-  [**Video 3: Demostración del Sistema (Parte 3)**](docs/evidencias/video3.mp4): Prueba de ingreso vehicular y control electromecánico.
+-  [**Video 4: Demostración del Sistema (Parte 4)**](docs/evidencias/video4.mp4): Validación del flujo de operación del prototipo físico.
+-  [**Video 5: Demostración del Sistema (Parte 5)**](docs/evidencias/video5.mp4): Prueba adicional de funcionamiento integral en laboratorio.
 
 ---
 
