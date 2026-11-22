@@ -209,7 +209,7 @@ A continuación se presentan las evidencias fotográficas de la maqueta física 
 
 #### Videos Demostrativos de Funcionamiento Físico
 
-En la carpeta [`docs/evidencias/`](docs/evidencias/docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
+En la carpeta [`docs/evidencias/docs/evidencias/`](docs/evidencias/docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
 
 -  [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
 -  [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
