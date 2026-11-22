@@ -1,4 +1,4 @@
-# 🚗 Corporación Universitaria Americana
+#  Corporación Universitaria Americana
 ## Sistema de Parqueadero Inteligente ESP32 · Gemelo Digital 2.5D
 
 <div align="center">
@@ -16,14 +16,14 @@
 
 <br />
 
-### 🌐 [VER GEMELO DIGITAL EN VIVO (GITHUB PAGES)](https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/)
+###  [VER GEMELO DIGITAL EN VIVO (GITHUB PAGES)](https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/)
 *Haz clic para abrir el simulador interactivo en tiempo real directamente desde tu navegador.*
 
 </div>
 
 ---
 
-## 📌 Tabla de Contenidos
+##  Tabla de Contenidos
 1. [Descripción General](#-descripción-general)
 2. [Cómo Ver el Gemelo Digital en Línea (GitHub Pages)](#-cómo-ver-el-gemelo-digital-en-línea-github-pages)
 3. [Arquitectura del Sistema](#-arquitectura-del-sistema)
@@ -37,7 +37,7 @@
 
 ---
 
-## 📖 Descripción General
+##  Descripción General
 
 Este proyecto consiste en un **Sistema Integral de Estacionamiento Inteligente Automatizado (Smart Parking IoT)** desarrollado como prototipo funcional para la carrera de Ingeniería Mecatrónica en la **Corporación Universitaria Americana**.
 
@@ -49,7 +49,7 @@ El sistema combina:
 
 ---
 
-## 🚀 Cómo Ver el Gemelo Digital en Línea (GitHub Pages)
+##  Cómo Ver el Gemelo Digital en Línea (GitHub Pages)
 
 Para que el proyecto se pueda abrir y evaluar como una página web pública desde cualquier celular, tablet o computadora sin instalar nada:
 
@@ -60,14 +60,14 @@ Para que el proyecto se pueda abrir y evaluar como una página web pública desd
 4. En **Branch**, selecciona `main` y en la carpeta elige `/ (root)`.
 5. Haz clic en **Save** (Guardar).
 6. En 1 minuto, GitHub generará tu enlace oficial:
-   👉 **[https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/](https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/)**
+    **[https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/](https://yeimerxx.github.io/parqueadero-inteligente-esp32-poo/)**
 
 > [!TIP]
 > **Modo Demostración Web Automático:** Al ingresar mediante el enlace de GitHub Pages, el Gemelo Digital detecta automáticamente el entorno web y activa el **Modo Manual / Demo**, permitiendo hacer clic en cualquier bahía (P1–P5), abrir la barrera, ingresar o retirar vehículos y observar la física del gemelo digital en tiempo real.
 
 ---
 
-## 🏗 Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 El flujo bidireccional entre la maqueta física, el servidor MQTT y la interfaz web opera de acuerdo con el siguiente esquema:
 
@@ -197,7 +197,7 @@ A continuación se presentan las capturas reales del sistema en funcionamiento:
 
 ---
 
-### 🔬 Evidencias del Prototipo Físico y Pruebas en Laboratorio
+###  Evidencias del Prototipo Físico y Pruebas en Laboratorio
 
 A continuación se presentan las evidencias fotográficas de la maqueta física desarrollada, mostrando el montaje electromecánico, la caseta de protección solar de cartón, los sensores ultrasónicos y la barrera servo-controlada:
 
@@ -216,18 +216,18 @@ A continuación se presentan las evidencias fotográficas de la maqueta física 
 
 </div>
 
-#### 🎥 Videos Demostrativos de Funcionamiento Físico
+#### Videos Demostrativos de Funcionamiento Físico
 
 En la carpeta [`docs/evidencias/`](docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
 
-- 🎬 [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
-- 🎬 [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
-- 🎬 [**Video 3: Prueba de Ingreso Vehicular en Tiempo Real**](docs/evidencias/video_demostracion_03.mp4): Tránsito de objeto de prueba simulando el ingreso de un vehículo y cierre temporizado.
-- 🎬 [**Video 4: Validación Integral del Sistema Físico**](docs/evidencias/video_demostracion_04.mp4): Demostración completa de detección, lógica anti-bloqueo y respuesta electromecánica.
+-  [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
+-  [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
+-  [**Video 3: Prueba de Ingreso Vehicular en Tiempo Real**](docs/evidencias/video_demostracion_03.mp4): Tránsito de objeto de prueba simulando el ingreso de un vehículo y cierre temporizado.
+-  [**Video 4: Validación Integral del Sistema Físico**](docs/evidencias/video_demostracion_04.mp4): Demostración completa de detección, lógica anti-bloqueo y respuesta electromecánica.
 
 ---
 
-## 📡 Tópicos MQTT y Telemetría
+##  Tópicos MQTT y Telemetría
 
 | Tópico | Dirección | Payload / Ejemplo | Descripción |
 |---|---|---|---|
@@ -239,7 +239,7 @@ En la carpeta [`docs/evidencias/`](docs/evidencias/) se encuentran registrados l
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```text
 parqueadero-inteligente/
@@ -279,7 +279,7 @@ parqueadero-inteligente/
 
 ---
 
-## 🚀 Guía de Instalación y Ejecución
+##  Guía de Instalación y Ejecución
 
 ### Opción 1: Probar sin Hardware Físico (Simulador Python + Web)
 
@@ -342,7 +342,7 @@ Start-Service mosquitto
 
 ---
 
-## 👥 Créditos
+##  Créditos
 - **Institución:** Corporación Universitaria Americana
 - **Programa:** Ingeniería Mecatrónica
 - **Materia / Proyecto:** Proyecto de Aula / Sistemas Embebidos e IoT
