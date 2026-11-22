@@ -298,6 +298,33 @@ Start-Service mosquitto
 
 ---
 
+## 15. Conclusiones y estado actual del proyecto
+
+El desarrollo del proyecto Parqueadero Inteligente permitió aplicar conocimientos de programación orientada a objetos, electrónica, microcontroladores y comunicación inalámbrica mediante el uso del ESP32.
+
+Durante su desarrollo se implementó un sistema capaz de gestionar espacios de estacionamiento mediante sensores ultrasónicos, un servomotor y comunicación MQTT. Además, se desarrolló un simulador en Python y un gemelo digital web que permiten representar y visualizar el comportamiento del parqueadero.
+
+La integración de estos componentes permitió comprender cómo la automatización y el Internet de las Cosas (IoT) pueden contribuir a mejorar el control y la administración de los espacios de estacionamiento.
+
+### Estado actual
+
+El proyecto cuenta con una estructura de software organizada, firmware para el ESP32, simulación en Python, comunicación MQTT y una interfaz web para la visualización del sistema.
+
+Se identifican como aspectos importantes para continuar mejorando el proyecto:
+
+- Verificar el funcionamiento integral del prototipo físico.
+- Realizar pruebas de detección de vehículos y disponibilidad de espacios.
+- Comprobar la comunicación entre el ESP32, el servidor MQTT y la interfaz web.
+- Mejorar la estabilidad y precisión del sistema.
+
+### Mejoras futuras
+
+Como posibles mejoras se plantea incorporar una mayor cantidad de sensores, implementar un sistema de registro de vehículos, agregar estadísticas de ocupación y desarrollar una interfaz que permita consultar la disponibilidad de espacios en tiempo real.
+
+En conclusión, el proyecto representa una aplicación práctica de la mecatrónica y la automatización, integrando hardware y software para ofrecer una solución tecnológica al control inteligente de estacionamientos.
+
+---
+
 ## Créditos
 - **Institución:** Corporación Universitaria Americana
 - **Programa:** Ingenieria en sistemas
