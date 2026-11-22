@@ -298,7 +298,7 @@ Start-Service mosquitto
 
 ---
 
-## 15. Conclusiones y estado actual del proyecto
+## Conclusiones y estado actual del proyecto
 
 El desarrollo del proyecto Parqueadero Inteligente permitió aplicar conocimientos de programación orientada a objetos, electrónica, microcontroladores y comunicación inalámbrica mediante el uso del ESP32.
 
