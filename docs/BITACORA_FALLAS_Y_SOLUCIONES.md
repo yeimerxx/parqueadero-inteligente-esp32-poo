@@ -99,3 +99,20 @@ Durante el diseño, montaje físico y desarrollo del software para el prototipo 
 | **Visualización** | Pantalla LCD 16x2 limitada, cables sueltos. | Gemelo Digital 2.5D en tiempo real con SVG isométrico dinámico. |
 | **Conectividad** | Web aislada sin enlace al hardware. | Broker Mosquitto dual (TCP 1883 + WebSockets 9001). |
 | **Demostración y Pruebas** | Dependencia obligatoria de la maqueta física. | Simulador Python completo + Modo Demo interactivo en GitHub Pages. |
+
+---
+
+### Registro de Evidencias Físicas y Demostración en Video
+
+Para constancia de la validación experimental y de laboratorio, se anexan en la carpeta `docs/evidencias/` las siguientes pruebas:
+
+#### 1. Evidencias Fotográficas del Prototipo Real
+- **`06_maqueta_fisica_vista_superior.jpg`:** Comprobación del aforo delimitado en 5 bahías (P1 a P5), la distribución del carril de entrada/salida y la caseta de protección solar de cartón sobre el circuito.
+- **`07_barrera_elevada_servo_sensor.jpg`:** Detalle del actuador servomotor SG90 elevando a 90° la barrera con señalización de franjas rojas y blancas, y el transductor HC-SR04 de entrada fijado a la protoboard.
+- **`08_maqueta_fisica_perspectiva_abierta.jpg`:** Vista en perspectiva del prototipo integral con el microcontrolador y el cableado de alimentación protegido.
+
+#### 2. Evidencias en Video de Ensayos Dinámicos
+- **`video_demostracion_01.mp4`:** Prueba de accionamiento angular del servomotor y respuesta del tren de pulsos PWM.
+- **`video_demostracion_02.mp4`:** Validación de la secuencia lógica de detección en los sensores ultrasónicos de entrada y salida.
+- **`video_demostracion_03.mp4`:** Prueba de paso vehicular con objeto de ensayo y cierre temporizado automático.
+- **`video_demostracion_04.mp4`:** Prueba integral del sistema mecatrónico en tiempo real.

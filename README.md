@@ -28,14 +28,13 @@ Martin castro.
 3. [Hardware y Conexiones (Pinout)](#hardware-y-conexiones-pinout)
 4. [Bitácora de Desafíos, Errores y Soluciones](#bitácora-de-desafíos-errores-y-soluciones)
 5. [Galería de Evidencias](#galería-de-evidencias)
-6. [Explicación del Funcionamiento Físico y Digital](docs/evidencias/README.md)
-7. [Tópicos MQTT y Telemetría](#tópicos-mqtt-y-telemetría)
-8. [Estructura del Proyecto](#estructura-del-proyecto)
-9. [Guía de Instalación y Ejecución](#guía-de-instalación-y-ejecución)
-10. [Conclusiones y estado actual del proyecto](#conclusiones-y-estado-actual-del-proyecto)
+6. [Tópicos MQTT y Telemetría](#tópicos-mqtt-y-telemetría)
+7. [Estructura del Proyecto](#estructura-del-proyecto)
+8. [Guía de Instalación y Ejecución](#guía-de-instalación-y-ejecución)
+9. [Conclusiones y estado actual del proyecto](#conclusiones-y-estado-actual-del-proyecto)
    - [Estado actual](#estado-actual)
    - [Mejoras futuras](#mejoras-futuras)
-11. [Créditos](#créditos)
+10. [Créditos](#créditos)
 
 ---
 
@@ -156,7 +155,7 @@ Durante el ciclo de desarrollo de este proyecto se superaron importantes retos m
 * **Error:** La radiación solar y la iluminación directa en el laboratorio producían mediciones falsas en los transductores ultrasónicos y dilatación en la cabina.
 * **Solución:** Se diseñó una estructura física de resguardo en cartón ("Protección Solar") sobre los sensores. Dicho elemento fue recreado con exactitud en el Gemelo Digital con el cartel luminoso `☀ Protección Solar (Cartón)`.
 
-*(Para un desglose técnico aún más profundo, consultar [BITACORA_FALLAS_Y_SOLUCIONES.md](BITACORA_FALLAS_Y_SOLUCIONES.md)).*
+*(Para un desglose técnico aún más profundo, consultar [BITACORA_FALLAS_Y_SOLUCIONES.md](docs/BITACORA_FALLAS_Y_SOLUCIONES.md)).*
 
 ---
 
@@ -194,14 +193,14 @@ A continuación se presentan las evidencias fotográficas de la maqueta física 
 
 | Evidencia 6: Vista Superior de la Maqueta | Evidencia 7: Barrera Elevada y Sensor Ultrasónico |
 |:---:|:---:|
-| ![Maqueta Física Superior](docs/evidencias/docs/evidencias/06_maqueta_fisica_vista_superior.jpg) | ![Barrera Elevada Servo](docs/evidencias/docs/evidencias/07_barrera_elevada_servo_sensor.jpg) |
+| ![Maqueta Física Superior](docs/evidencias/06_maqueta_fisica_vista_superior.jpg) | ![Barrera Elevada Servo](docs/evidencias/07_barrera_elevada_servo_sensor.jpg) |
 | *Vista aérea de la maqueta: cajones P1 a P5 ocupados por objetos de prueba, caseta de cartón protectora y barrera cerrada.* | *Detalle frontal del servomotor SG90 elevando la barrera a 90° con sensor ultrasónico HC-SR04 de entrada.* |
 
 <div align="center">
 
 ### Evidencia 8: Vista en Perspectiva de la Maqueta y Electrónica de Control
 
-![Maqueta Física Perspectiva](docs/evidencias/docs/evidencias/08_maqueta_fisica_perspectiva_abierta.jpg)
+![Maqueta Física Perspectiva](docs/evidencias/08_maqueta_fisica_perspectiva_abierta.jpg)
 
 *Vista en perspectiva mostrando la integración del cableado en protoboard, sensores ultrasónicos frontal y posterior, y la barrera en posición de apertura.*
 
@@ -209,12 +208,12 @@ A continuación se presentan las evidencias fotográficas de la maqueta física 
 
 #### Videos Demostrativos de Funcionamiento Físico
 
-En la carpeta [`docs/evidencias/docs/evidencias/`](docs/evidencias/docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
+En la carpeta [`docs/evidencias/`](docs/evidencias/) se encuentran registrados los videos de las pruebas de laboratorio del sistema:
 
--  [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
--  [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
--  [**Video 3: Prueba de Ingreso Vehicular en Tiempo Real**](docs/evidencias/docs/evidencias/video_demostracion_03.mp4): Tránsito de objeto de prueba simulando el ingreso de un vehículo y cierre temporizado.
--  [**Video 4: Validación Integral del Sistema Físico**](docs/evidencias/docs/evidencias/video_demostracion_04.mp4): Demostración completa de detección, lógica anti-bloqueo y respuesta electromecánica.
+-  [**Video 1: Apertura de Barrera y Ciclo de Control**](docs/evidencias/video_demostracion_01.mp4): Comprobación del movimiento angular del servomotor SG90 y respuesta del pulso PWM.
+-  [**Video 2: Detección Ultrasónica Secuencial**](docs/evidencias/video_demostracion_02.mp4): Activación del sensor exterior y confirmación con sensor interior.
+-  [**Video 3: Prueba de Ingreso Vehicular en Tiempo Real**](docs/evidencias/video_demostracion_03.mp4): Tránsito de objeto de prueba simulando el ingreso de un vehículo y cierre temporizado.
+-  [**Video 4: Validación Integral del Sistema Físico**](docs/evidencias/video_demostracion_04.mp4): Demostración completa de detección, lógica anti-bloqueo y respuesta electromecánica.
 
 ---
 
