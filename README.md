@@ -23,16 +23,16 @@ Martin castro.
 ---
 
 ## Tabla de Contenidos
-1. [Descripción General](#-descripción-general)
-2. [Cómo Ver el Gemelo Digital en Línea (GitHub Pages)](#-cómo-ver-el-gemelo-digital-en-línea-github-pages)
-3. [Arquitectura del Sistema](#-arquitectura-del-sistema)
-4. [Hardware y Conexiones (Pinout)](#-hardware-y-conexiones-pinout)
+1. [Descripción General](#descripción-general)
+2. [Cómo Ver el Gemelo Digital en Línea (GitHub Pages)](#cómo-ver-el-gemelo-digital-en-línea-github-pages)
+3. [Arquitectura del Sistema](#arquitectura-del-sistema)
+4. [Hardware y Conexiones (Pinout)](#hardware-y-conexiones-pinout)
 5. [Bitácora de Desafíos, Errores y Soluciones](#-bitácora-de-desafíos-errores-y-soluciones)
-6. [Galería de Evidencias](#-galería-de-evidencias)
-7. [Tópicos MQTT y Telemetría](#-tópicos-mqtt-y-telemetría)
-8. [Estructura del Proyecto](#-estructura-del-proyecto)
-9. [Guía de Instalación y Ejecución](#-guía-de-instalación-y-ejecución)
-10. [Créditos](#-créditos)
+6. [Galería de Evidencias](#galería-de-evidencias)
+7. [Tópicos MQTT y Telemetría](#tópicos-mqtt-y-telemetría)
+8. [Estructura del Proyecto](#estructura-del-proyecto)
+9. [Guía de Instalación y Ejecución](#guía-de-instalación-y-ejecución)
+10. [Créditos](#créditos)
 
 ---
 
