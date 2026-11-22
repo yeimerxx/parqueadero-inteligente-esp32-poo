@@ -28,7 +28,7 @@ Martin castro.
 3. [Hardware y Conexiones (Pinout)](#hardware-y-conexiones-pinout)
 4. [Bitácora de Desafíos, Errores y Soluciones](#bitácora-de-desafíos-errores-y-soluciones)
 5. [Galería de Evidencias](#galería-de-evidencias)
-6. [Funcionamiento Físico y Evidencias](docs/evidencias/README.md)
+6. [Explicación del Funcionamiento Físico y Digital](docs/evidencias/README.md)
 7. [Tópicos MQTT y Telemetría](#tópicos-mqtt-y-telemetría)
 8. [Estructura del Proyecto](#estructura-del-proyecto)
 9. [Guía de Instalación y Ejecución](#guía-de-instalación-y-ejecución)
