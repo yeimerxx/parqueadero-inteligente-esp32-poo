@@ -194,14 +194,14 @@ A continuación se presentan las evidencias fotográficas de la maqueta física 
 
 | Evidencia 6: Vista Superior de la Maqueta | Evidencia 7: Barrera Elevada y Sensor Ultrasónico |
 |:---:|:---:|
-| ![Maqueta Física Superior](docs/evidencias/doce/06_maqueta_fisica_vista_superior.jpg) | ![Barrera Elevada Servo](docs/evidencias/docs/07_barrera_elevada_servo_sensor.jpg) |
+| ![Maqueta Física Superior](docs/evidencias/docs/evidencias/06_maqueta_fisica_vista_superior.jpg) | ![Barrera Elevada Servo](docs/evidencias/docs/evidencias/07_barrera_elevada_servo_sensor.jpg) |
 | *Vista aérea de la maqueta: cajones P1 a P5 ocupados por objetos de prueba, caseta de cartón protectora y barrera cerrada.* | *Detalle frontal del servomotor SG90 elevando la barrera a 90° con sensor ultrasónico HC-SR04 de entrada.* |
 
 <div align="center">
 
 ### Evidencia 8: Vista en Perspectiva de la Maqueta y Electrónica de Control
 
-![Maqueta Física Perspectiva](docs/evidencias/docs/08_maqueta_fisica_perspectiva_abierta.jpg)
+![Maqueta Física Perspectiva](docs/evidencias/docs/evidencias/08_maqueta_fisica_perspectiva_abierta.jpg)
 
 *Vista en perspectiva mostrando la integración del cableado en protoboard, sensores ultrasónicos frontal y posterior, y la barrera en posición de apertura.*
 
